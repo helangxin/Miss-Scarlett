@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF4007E41CCBCB8B0084E810 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4007E31CCBCB8B0084E810 /* main.m */; };
+		FF4007E71CCBCB8B0084E810 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4007E61CCBCB8B0084E810 /* AppDelegate.m */; };
+		FF4007EF1CCBCB8B0084E810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4007EE1CCBCB8B0084E810 /* Assets.xcassets */; };
+		FF4007FB1CCBD28C0084E810 /* JDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4007FA1CCBD28C0084E810 /* JDTabBarController.m */; };
+		FF4007FE1CCBE4230084E810 /* JDMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4007FD1CCBE4230084E810 /* JDMeController.m */; };
+		FF4008011CCBE4410084E810 /* JDEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4008001CCBE4410084E810 /* JDEssenceController.m */; };
+		FF4008041CCBE45F0084E810 /* JDfriendTrendsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4008031CCBE45F0084E810 /* JDfriendTrendsController.m */; };
+		FF4008071CCBE48C0084E810 /* JDNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4008061CCBE48C0084E810 /* JDNewController.m */; };
+		FF40080A1CCC5B840084E810 /* JDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4008091CCC5B840084E810 /* JDTabBar.m */; };
+		FF61C3961CCC764B00968857 /* UIBarButtonItem+JDBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61C3951CCC764B00968857 /* UIBarButtonItem+JDBarButtonItem.m */; };
+		FF61C39C1CCC9C9000968857 /* UIView+JDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61C39B1CCC9C9000968857 /* UIView+JDExtension.m */; };
+		FF61C3B41CCCA51900968857 /* JDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61C3B31CCCA51900968857 /* JDNavigationController.m */; };
+		FF8B67E51CCCB4570020A5F3 /* JDtestController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B67E41CCCB4570020A5F3 /* JDtestController.m */; };
+		FF8B67E81CCCB4A20020A5F3 /* JDView1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B67E71CCCB4A20020A5F3 /* JDView1Controller.m */; };
+		FF8B67EA1CCCCE8A0020A5F3 /* JDfriendTrendsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8B67E91CCCCE8A0020A5F3 /* JDfriendTrendsController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF4007DF1CCBCB8B0084E810 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4007E31CCBCB8B0084E810 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF4007E51CCBCB8B0084E810 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF4007E61CCBCB8B0084E810 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF4007EE1CCBCB8B0084E810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF4007F31CCBCB8B0084E810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4007F91CCBD28C0084E810 /* JDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDTabBarController.h; path = ../../../JDTabBarController.h; sourceTree = "<group>"; };
+		FF4007FA1CCBD28C0084E810 /* JDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDTabBarController.m; path = ../../../JDTabBarController.m; sourceTree = "<group>"; };
+		FF4007FC1CCBE4230084E810 /* JDMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDMeController.h; path = ../../../JDMeController.h; sourceTree = "<group>"; };
+		FF4007FD1CCBE4230084E810 /* JDMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDMeController.m; path = ../../../JDMeController.m; sourceTree = "<group>"; };
+		FF4007FF1CCBE4410084E810 /* JDEssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDEssenceController.h; path = ../../../JDEssenceController.h; sourceTree = "<group>"; };
+		FF4008001CCBE4410084E810 /* JDEssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDEssenceController.m; path = ../../../JDEssenceController.m; sourceTree = "<group>"; };
+		FF4008021CCBE45F0084E810 /* JDfriendTrendsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDfriendTrendsController.h; path = ../../../JDfriendTrendsController.h; sourceTree = "<group>"; };
+		FF4008031CCBE45F0084E810 /* JDfriendTrendsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDfriendTrendsController.m; path = ../../../JDfriendTrendsController.m; sourceTree = "<group>"; };
+		FF4008051CCBE48C0084E810 /* JDNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDNewController.h; path = ../../../JDNewController.h; sourceTree = "<group>"; };
+		FF4008061CCBE48C0084E810 /* JDNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDNewController.m; path = ../../../JDNewController.m; sourceTree = "<group>"; };
+		FF4008081CCC5B840084E810 /* JDTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDTabBar.h; path = ../../../JDTabBar.h; sourceTree = "<group>"; };
+		FF4008091CCC5B840084E810 /* JDTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDTabBar.m; path = ../../../JDTabBar.m; sourceTree = "<group>"; };
+		FF61C3931CCC71EB00968857 /* HeaderPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderPch.pch; sourceTree = "<group>"; };
+		FF61C3941CCC764B00968857 /* UIBarButtonItem+JDBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+JDBarButtonItem.h"; path = "../../../UIBarButtonItem+JDBarButtonItem.h"; sourceTree = "<group>"; };
+		FF61C3951CCC764B00968857 /* UIBarButtonItem+JDBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+JDBarButtonItem.m"; path = "../../../UIBarButtonItem+JDBarButtonItem.m"; sourceTree = "<group>"; };
+		FF61C39A1CCC9C9000968857 /* UIView+JDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+JDExtension.h"; path = "../../../UIView+JDExtension.h"; sourceTree = "<group>"; };
+		FF61C39B1CCC9C9000968857 /* UIView+JDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+JDExtension.m"; path = "../../../UIView+JDExtension.m"; sourceTree = "<group>"; };
+		FF61C3B21CCCA51900968857 /* JDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDNavigationController.h; path = ../../../JDNavigationController.h; sourceTree = "<group>"; };
+		FF61C3B31CCCA51900968857 /* JDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDNavigationController.m; path = ../../../JDNavigationController.m; sourceTree = "<group>"; };
+		FF8B67E31CCCB4570020A5F3 /* JDtestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDtestController.h; sourceTree = "<group>"; };
+		FF8B67E41CCCB4570020A5F3 /* JDtestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDtestController.m; sourceTree = "<group>"; };
+		FF8B67E61CCCB4A20020A5F3 /* JDView1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDView1Controller.h; sourceTree = "<group>"; };
+		FF8B67E71CCCB4A20020A5F3 /* JDView1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDView1Controller.m; sourceTree = "<group>"; };
+		FF8B67E91CCCCE8A0020A5F3 /* JDfriendTrendsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDfriendTrendsController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF4007DC1CCBCB8B0084E810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF4007D61CCBCB8B0084E810 = {
+			isa = PBXGroup;
+			children = (
+				FF4007E11CCBCB8B0084E810 /* 百思不得姐 */,
+				FF4007E01CCBCB8B0084E810 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF4007E01CCBCB8B0084E810 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF4007DF1CCBCB8B0084E810 /* 百思不得姐.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF4007E11CCBCB8B0084E810 /* 百思不得姐 */ = {
+			isa = PBXGroup;
+			children = (
+				FF61C3A11CCCA2DE00968857 /* class */,
+				FF8B67DF1CCCB3960020A5F3 /* Other */,
+				FF4007E51CCBCB8B0084E810 /* AppDelegate.h */,
+				FF4007E61CCBCB8B0084E810 /* AppDelegate.m */,
+				FF61C3931CCC71EB00968857 /* HeaderPch.pch */,
+				FF4007E21CCBCB8B0084E810 /* Supporting Files */,
+			);
+			path = "百思不得姐";
+			sourceTree = "<group>";
+		};
+		FF4007E21CCBCB8B0084E810 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF4007EE1CCBCB8B0084E810 /* Assets.xcassets */,
+				FF4007E31CCBCB8B0084E810 /* main.m */,
+				FF4007F31CCBCB8B0084E810 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF61C3A11CCCA2DE00968857 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				FF61C3A21CCCA2DE00968857 /* Essence精华 */,
+				FF61C3A61CCCA2DE00968857 /* friendTrends关注 */,
+				FF61C3AA1CCCA2DE00968857 /* Me我 */,
+				FF61C3AE1CCCA2DE00968857 /* New最新 */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		FF61C3A21CCCA2DE00968857 /* Essence精华 */ = {
+			isa = PBXGroup;
+			children = (
+				FF61C3A31CCCA2DE00968857 /* Controller */,
+				FF61C3A41CCCA2DE00968857 /* Model */,
+				FF61C3A51CCCA2DE00968857 /* VIew */,
+			);
+			path = "Essence精华";
+			sourceTree = "<group>";
+		};
+		FF61C3A31CCCA2DE00968857 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF4007FF1CCBE4410084E810 /* JDEssenceController.h */,
+				FF4008001CCBE4410084E810 /* JDEssenceController.m */,
+				FF8B67E31CCCB4570020A5F3 /* JDtestController.h */,
+				FF8B67E41CCCB4570020A5F3 /* JDtestController.m */,
+				FF8B67E61CCCB4A20020A5F3 /* JDView1Controller.h */,
+				FF8B67E71CCCB4A20020A5F3 /* JDView1Controller.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF61C3A41CCCA2DE00968857 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF61C3A51CCCA2DE00968857 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		FF61C3A61CCCA2DE00968857 /* friendTrends关注 */ = {
+			isa = PBXGroup;
+			children = (
+				FF61C3A71CCCA2DE00968857 /* Controller */,
+				FF61C3A81CCCA2DE00968857 /* Model */,
+				FF61C3A91CCCA2DE00968857 /* VIew */,
+			);
+			path = "friendTrends关注";
+			sourceTree = "<group>";
+		};
+		FF61C3A71CCCA2DE00968857 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF4008021CCBE45F0084E810 /* JDfriendTrendsController.h */,
+				FF8B67E91CCCCE8A0020A5F3 /* JDfriendTrendsController.xib */,
+				FF4008031CCBE45F0084E810 /* JDfriendTrendsController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF61C3A81CCCA2DE00968857 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF61C3A91CCCA2DE00968857 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		FF61C3AA1CCCA2DE00968857 /* Me我 */ = {
+			isa = PBXGroup;
+			children = (
+				FF61C3AB1CCCA2DE00968857 /* Controller */,
+				FF61C3AC1CCCA2DE00968857 /* Model */,
+				FF61C3AD1CCCA2DE00968857 /* VIew */,
+			);
+			path = "Me我";
+			sourceTree = "<group>";
+		};
+		FF61C3AB1CCCA2DE00968857 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF4007FC1CCBE4230084E810 /* JDMeController.h */,
+				FF4007FD1CCBE4230084E810 /* JDMeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF61C3AC1CCCA2DE00968857 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF61C3AD1CCCA2DE00968857 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		FF61C3AE1CCCA2DE00968857 /* New最新 */ = {
+			isa = PBXGroup;
+			children = (
+				FF61C3AF1CCCA2DE00968857 /* Controller */,
+				FF61C3B01CCCA2DE00968857 /* Model */,
+				FF61C3B11CCCA2DE00968857 /* VIew */,
+			);
+			path = "New最新";
+			sourceTree = "<group>";
+		};
+		FF61C3AF1CCCA2DE00968857 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF4008051CCBE48C0084E810 /* JDNewController.h */,
+				FF4008061CCBE48C0084E810 /* JDNewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF61C3B01CCCA2DE00968857 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF61C3B11CCCA2DE00968857 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		FF8B67DF1CCCB3960020A5F3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B67E01CCCB3960020A5F3 /* Controller */,
+				FF8B67E11CCCB3960020A5F3 /* gateory */,
+				FF8B67E21CCCB3960020A5F3 /* VIew */,
+			);
+			name = Other;
+			path = class/Other;
+			sourceTree = "<group>";
+		};
+		FF8B67E01CCCB3960020A5F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF61C3B21CCCA51900968857 /* JDNavigationController.h */,
+				FF61C3B31CCCA51900968857 /* JDNavigationController.m */,
+				FF4007F91CCBD28C0084E810 /* JDTabBarController.h */,
+				FF4007FA1CCBD28C0084E810 /* JDTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF8B67E11CCCB3960020A5F3 /* gateory */ = {
+			isa = PBXGroup;
+			children = (
+				FF61C3941CCC764B00968857 /* UIBarButtonItem+JDBarButtonItem.h */,
+				FF61C3951CCC764B00968857 /* UIBarButtonItem+JDBarButtonItem.m */,
+				FF61C39A1CCC9C9000968857 /* UIView+JDExtension.h */,
+				FF61C39B1CCC9C9000968857 /* UIView+JDExtension.m */,
+			);
+			name = gateory;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF8B67E21CCCB3960020A5F3 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				FF4008081CCC5B840084E810 /* JDTabBar.h */,
+				FF4008091CCC5B840084E810 /* JDTabBar.m */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF4007DE1CCBCB8B0084E810 /* 百思不得姐 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4007F61CCBCB8B0084E810 /* Build configuration list for PBXNativeTarget "百思不得姐" */;
+			buildPhases = (
+				FF4007DB1CCBCB8B0084E810 /* Sources */,
+				FF4007DC1CCBCB8B0084E810 /* Frameworks */,
+				FF4007DD1CCBCB8B0084E810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "百思不得姐";
+			productName = "百思不得姐";
+			productReference = FF4007DF1CCBCB8B0084E810 /* 百思不得姐.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF4007D71CCBCB8B0084E810 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JD;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = helangxin;
+				TargetAttributes = {
+					FF4007DE1CCBCB8B0084E810 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = FF4007DA1CCBCB8B0084E810 /* Build configuration list for PBXProject "百思不得姐" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF4007D61CCBCB8B0084E810;
+			productRefGroup = FF4007E01CCBCB8B0084E810 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF4007DE1CCBCB8B0084E810 /* 百思不得姐 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF4007DD1CCBCB8B0084E810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4007EF1CCBCB8B0084E810 /* Assets.xcassets in Resources */,
+				FF8B67EA1CCCCE8A0020A5F3 /* JDfriendTrendsController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF4007DB1CCBCB8B0084E810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4008071CCBE48C0084E810 /* JDNewController.m in Sources */,
+				FF4007FB1CCBD28C0084E810 /* JDTabBarController.m in Sources */,
+				FF4007FE1CCBE4230084E810 /* JDMeController.m in Sources */,
+				FF8B67E51CCCB4570020A5F3 /* JDtestController.m in Sources */,
+				FF8B67E81CCCB4A20020A5F3 /* JDView1Controller.m in Sources */,
+				FF4008041CCBE45F0084E810 /* JDfriendTrendsController.m in Sources */,
+				FF61C3B41CCCA51900968857 /* JDNavigationController.m in Sources */,
+				FF40080A1CCC5B840084E810 /* JDTabBar.m in Sources */,
+				FF4007E71CCBCB8B0084E810 /* AppDelegate.m in Sources */,
+				FF4008011CCBE4410084E810 /* JDEssenceController.m in Sources */,
+				FF4007E41CCBCB8B0084E810 /* main.m in Sources */,
+				FF61C39C1CCC9C9000968857 /* UIView+JDExtension.m in Sources */,
+				FF61C3961CCC764B00968857 /* UIBarButtonItem+JDBarButtonItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FF4007F41CCBCB8B0084E810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "百思不得姐/HeaderPch.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF4007F51CCBCB8B0084E810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "百思不得姐/HeaderPch.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF4007F71CCBCB8B0084E810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF4007F81CCBCB8B0084E810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF4007DA1CCBCB8B0084E810 /* Build configuration list for PBXProject "百思不得姐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4007F41CCBCB8B0084E810 /* Debug */,
+				FF4007F51CCBCB8B0084E810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4007F61CCBCB8B0084E810 /* Build configuration list for PBXNativeTarget "百思不得姐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4007F71CCBCB8B0084E810 /* Debug */,
+				FF4007F81CCBCB8B0084E810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF4007D71CCBCB8B0084E810 /* Project object */;
+}
