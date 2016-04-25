@@ -23,6 +23,9 @@
 		FF8B67E51CCCB4570020A5F3 /* JDtestController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B67E41CCCB4570020A5F3 /* JDtestController.m */; };
 		FF8B67E81CCCB4A20020A5F3 /* JDView1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B67E71CCCB4A20020A5F3 /* JDView1Controller.m */; };
 		FF8B67EA1CCCCE8A0020A5F3 /* JDfriendTrendsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8B67E91CCCCE8A0020A5F3 /* JDfriendTrendsController.xib */; };
+		FFC4F9CC1CCCF917000BE44A /* JDRecommeController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC4F9CA1CCCF917000BE44A /* JDRecommeController.m */; };
+		FFC4F9CD1CCCF917000BE44A /* JDRecommeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFC4F9CB1CCCF917000BE44A /* JDRecommeController.xib */; };
+		FFC4F9CF1CCCFDB2000BE44A /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC4F9CE1CCCFDB2000BE44A /* Foundation+Log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +62,10 @@
 		FF8B67E61CCCB4A20020A5F3 /* JDView1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDView1Controller.h; sourceTree = "<group>"; };
 		FF8B67E71CCCB4A20020A5F3 /* JDView1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDView1Controller.m; sourceTree = "<group>"; };
 		FF8B67E91CCCCE8A0020A5F3 /* JDfriendTrendsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDfriendTrendsController.xib; sourceTree = "<group>"; };
+		FFC4F9C91CCCF917000BE44A /* JDRecommeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDRecommeController.h; sourceTree = "<group>"; };
+		FFC4F9CA1CCCF917000BE44A /* JDRecommeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDRecommeController.m; sourceTree = "<group>"; };
+		FFC4F9CB1CCCF917000BE44A /* JDRecommeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDRecommeController.xib; sourceTree = "<group>"; };
+		FFC4F9CE1CCCFDB2000BE44A /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +123,7 @@
 				FF4007E51CCBCB8B0084E810 /* AppDelegate.h */,
 				FF4007E61CCBCB8B0084E810 /* AppDelegate.m */,
 				FF61C3931CCC71EB00968857 /* HeaderPch.pch */,
+				FFC4F9CE1CCCFDB2000BE44A /* Foundation+Log.m */,
 				FF4007E21CCBCB8B0084E810 /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -195,6 +203,9 @@
 				FF4008021CCBE45F0084E810 /* JDfriendTrendsController.h */,
 				FF8B67E91CCCCE8A0020A5F3 /* JDfriendTrendsController.xib */,
 				FF4008031CCBE45F0084E810 /* JDfriendTrendsController.m */,
+				FFC4F9C91CCCF917000BE44A /* JDRecommeController.h */,
+				FFC4F9CA1CCCF917000BE44A /* JDRecommeController.m */,
+				FFC4F9CB1CCCF917000BE44A /* JDRecommeController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -383,6 +394,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC4F9CD1CCCF917000BE44A /* JDRecommeController.xib in Resources */,
 				FF4007EF1CCBCB8B0084E810 /* Assets.xcassets in Resources */,
 				FF8B67EA1CCCCE8A0020A5F3 /* JDfriendTrendsController.xib in Resources */,
 			);
@@ -453,6 +465,8 @@
 				FF40080A1CCC5B840084E810 /* JDTabBar.m in Sources */,
 				FF4007E71CCBCB8B0084E810 /* AppDelegate.m in Sources */,
 				FF4008011CCBE4410084E810 /* JDEssenceController.m in Sources */,
+				FFC4F9CC1CCCF917000BE44A /* JDRecommeController.m in Sources */,
+				FFC4F9CF1CCCFDB2000BE44A /* Foundation+Log.m in Sources */,
 				FF4007E41CCBCB8B0084E810 /* main.m in Sources */,
 				FF61C39C1CCC9C9000968857 /* UIView+JDExtension.m in Sources */,
 				FF61C3961CCC764B00968857 /* UIBarButtonItem+JDBarButtonItem.m in Sources */,
