@@ -7,7 +7,8 @@
 //
 
 #import "JDfriendTrendsController.h"
-#import "JDRecommeController.h"
+#import "JDRecommendController.h"
+#import "JDLoginViewController.h"
 
 @interface JDfriendTrendsController ()
 
@@ -17,16 +18,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor=[UIColor redColor];
+    self.view.backgroundColor=JDGlobalColor;
+    self.navigationItem.leftBarButtonItem=[UIBarButtonItem itemImage:@"friendsRecommentIcon" HighImage:@"friendsRecommentIcon-click" target:self action:@selector(pushRecommend)];
     
     
 }
-- (IBAction)pushVC:(id)sender
+
+-(void)pushRecommend
 {
-    [self.navigationController pushViewController:[JDRecommeController new] animated:YES];
+      [self.navigationController pushViewController:[JDRecommendController new] animated:YES];
 }
-
-
-
+- (IBAction)loginBtn:(id)sender
+{
+    [self presentViewController:[JDLoginViewController new] animated:YES completion:nil];
+}
 
 @end

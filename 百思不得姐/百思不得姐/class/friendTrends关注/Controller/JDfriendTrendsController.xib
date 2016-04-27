@@ -15,38 +15,48 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fsdfsdfsdfsdfsdfsdfdsfsdfsdfsdfsdfssfsdfdsfsdfsdfdsfsdfsdfsd" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FzM-Gp-cK9">
-                    <rect key="frame" x="117" y="280" width="367" height="41"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="367" id="Akk-jr-r78"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header_cry_icon" translatesAutoresizingMaskIntoConstraints="NO" id="jko-QK-Mrn">
-                    <rect key="frame" x="276" y="206" width="48" height="48"/>
+                    <rect key="frame" x="276" y="205" width="48" height="48"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="48" id="8ha-Av-eJB"/>
                         <constraint firstAttribute="height" constant="48" id="fm0-jV-7RY"/>
                     </constraints>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4IM-k2-WaY">
-                    <rect key="frame" x="277" y="362" width="46" height="30"/>
-                    <state key="normal" title="Button"/>
+                    <rect key="frame" x="233" y="361" width="134" height="57"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="134" id="ZpN-lN-vfx"/>
+                        <constraint firstAttribute="height" constant="57" id="nug-df-UuM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <state key="normal" title="注册登录">
+                        <color key="titleColor" red="1" green="0.22563958689999999" blue="0.2722782943" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
                     <connections>
-                        <action selector="pushVC:" destination="-1" eventType="touchUpInside" id="AAB-FX-Cj1"/>
+                        <action selector="loginBtn:" destination="-1" eventType="touchUpInside" id="WDK-uM-Xoo"/>
                     </connections>
                 </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FzM-Gp-cK9">
+                    <rect key="frame" x="117" y="279" width="367" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="367" id="Akk-jr-r78"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="Qt9-gq-ByE"/>
+                    </constraints>
+                    <string key="text">快来登录 注册用礼包
+快来注册</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="FzM-Gp-cK9" firstAttribute="top" secondItem="jko-QK-Mrn" secondAttribute="bottom" constant="26" id="61X-9C-NGz"/>
-                <constraint firstItem="4IM-k2-WaY" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Iv4-mF-7uo"/>
+                <constraint firstItem="4IM-k2-WaY" firstAttribute="centerX" secondItem="FzM-Gp-cK9" secondAttribute="centerX" id="6V2-Qt-6Sz"/>
+                <constraint firstItem="4IM-k2-WaY" firstAttribute="top" secondItem="FzM-Gp-cK9" secondAttribute="bottom" constant="41" id="Hz6-pN-Pgo"/>
                 <constraint firstItem="FzM-Gp-cK9" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Oag-7X-31o"/>
                 <constraint firstItem="jko-QK-Mrn" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Vhm-a9-ffl"/>
                 <constraint firstItem="FzM-Gp-cK9" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="oSL-VR-fHG"/>
-                <constraint firstItem="4IM-k2-WaY" firstAttribute="top" secondItem="FzM-Gp-cK9" secondAttribute="bottom" constant="41" id="vKo-xu-o1b"/>
             </constraints>
             <point key="canvasLocation" x="237" y="226"/>
         </view>

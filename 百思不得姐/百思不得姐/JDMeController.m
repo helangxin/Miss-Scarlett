@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor=[UIColor redColor];
+     self.view.backgroundColor=JDGlobalColor;
    self.navigationItem.title=@"我的";
     
     //添加右边两个按钮

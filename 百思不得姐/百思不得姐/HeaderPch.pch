@@ -12,6 +12,8 @@
 #import "UIBarButtonItem+JDBarButtonItem.h"
 #import "UIView+JDExtension.h"
 
+#define  JDColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define JDGlobalColor JDColor(233,233,233)
 
 
 #endif /* HeaderPch_pch */

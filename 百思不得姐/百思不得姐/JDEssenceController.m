@@ -7,7 +7,7 @@
 //
 
 #import "JDEssenceController.h"
-#import "JDtestController.h"
+#import "JDSubViewController.h"
 
 @interface JDEssenceController ()
 
@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //设置导航栏的按钮和标题
-    self.view.backgroundColor=[UIColor grayColor];
+    self.view.backgroundColor=JDGlobalColor;
     //self.navigationItem.title=@"百思不得姐";
     self.navigationItem.titleView=[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"MainTitle"]];
 
@@ -30,12 +30,9 @@
 
 -(void)onClick
 {
-   
+    [self.navigationController pushViewController:[JDSubViewController new] animated:YES];
 }
 
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
-{
-     [self.navigationController pushViewController:[JDtestController new] animated:YES];
-}
+
 
 @end

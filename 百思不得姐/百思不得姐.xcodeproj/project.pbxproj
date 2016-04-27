@@ -17,15 +17,26 @@
 		FF4008041CCBE45F0084E810 /* JDfriendTrendsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4008031CCBE45F0084E810 /* JDfriendTrendsController.m */; };
 		FF4008071CCBE48C0084E810 /* JDNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4008061CCBE48C0084E810 /* JDNewController.m */; };
 		FF40080A1CCC5B840084E810 /* JDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4008091CCC5B840084E810 /* JDTabBar.m */; };
+		FF49438E1CD044B00078404B /* JDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF49438C1CD044B00078404B /* JDLoginViewController.m */; };
+		FF49438F1CD044B00078404B /* JDLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF49438D1CD044B00078404B /* JDLoginViewController.xib */; };
 		FF61C3961CCC764B00968857 /* UIBarButtonItem+JDBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61C3951CCC764B00968857 /* UIBarButtonItem+JDBarButtonItem.m */; };
 		FF61C39C1CCC9C9000968857 /* UIView+JDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61C39B1CCC9C9000968857 /* UIView+JDExtension.m */; };
 		FF61C3B41CCCA51900968857 /* JDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61C3B31CCCA51900968857 /* JDNavigationController.m */; };
-		FF8B67E51CCCB4570020A5F3 /* JDtestController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B67E41CCCB4570020A5F3 /* JDtestController.m */; };
-		FF8B67E81CCCB4A20020A5F3 /* JDView1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B67E71CCCB4A20020A5F3 /* JDView1Controller.m */; };
+		FF84FC321CCF1808007D9ADA /* JDUserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF84FC301CCF1808007D9ADA /* JDUserTableViewCell.m */; };
+		FF84FC331CCF1808007D9ADA /* JDUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF84FC311CCF1808007D9ADA /* JDUserTableViewCell.xib */; };
+		FF84FC361CCF19FB007D9ADA /* JDUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF84FC351CCF19FB007D9ADA /* JDUserModel.m */; };
+		FF84FC3D1CCF92DE007D9ADA /* JDSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF84FC3B1CCF92DE007D9ADA /* JDSubViewController.m */; };
+		FF84FC3E1CCF92DE007D9ADA /* JDSubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF84FC3C1CCF92DE007D9ADA /* JDSubViewController.xib */; };
+		FF84FC421CCF93E9007D9ADA /* JDSubTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF84FC401CCF93E9007D9ADA /* JDSubTableViewCell.m */; };
+		FF84FC431CCF93E9007D9ADA /* JDSubTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF84FC411CCF93E9007D9ADA /* JDSubTableViewCell.xib */; };
+		FF84FC461CCF940E007D9ADA /* JDSubModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF84FC451CCF940E007D9ADA /* JDSubModel.m */; };
 		FF8B67EA1CCCCE8A0020A5F3 /* JDfriendTrendsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8B67E91CCCCE8A0020A5F3 /* JDfriendTrendsController.xib */; };
-		FFC4F9CC1CCCF917000BE44A /* JDRecommeController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC4F9CA1CCCF917000BE44A /* JDRecommeController.m */; };
-		FFC4F9CD1CCCF917000BE44A /* JDRecommeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFC4F9CB1CCCF917000BE44A /* JDRecommeController.xib */; };
+		FFC4F9CC1CCCF917000BE44A /* JDRecommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC4F9CA1CCCF917000BE44A /* JDRecommendController.m */; };
+		FFC4F9CD1CCCF917000BE44A /* JDRecommendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFC4F9CB1CCCF917000BE44A /* JDRecommendController.xib */; };
 		FFC4F9CF1CCCFDB2000BE44A /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC4F9CE1CCCFDB2000BE44A /* Foundation+Log.m */; };
+		FFC4F9D31CCE6EFD000BE44A /* JDTRecommendViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC4F9D11CCE6EFD000BE44A /* JDTRecommendViewCell.m */; };
+		FFC4F9D41CCE6EFD000BE44A /* JDTRecommendViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFC4F9D21CCE6EFD000BE44A /* JDTRecommendViewCell.xib */; };
+		FFC4F9D71CCE7042000BE44A /* JDRecommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC4F9D61CCE7042000BE44A /* JDRecommendModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +61,9 @@
 		FF4008061CCBE48C0084E810 /* JDNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDNewController.m; path = ../../../JDNewController.m; sourceTree = "<group>"; };
 		FF4008081CCC5B840084E810 /* JDTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDTabBar.h; path = ../../../JDTabBar.h; sourceTree = "<group>"; };
 		FF4008091CCC5B840084E810 /* JDTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDTabBar.m; path = ../../../JDTabBar.m; sourceTree = "<group>"; };
+		FF49438B1CD044B00078404B /* JDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDLoginViewController.h; sourceTree = "<group>"; };
+		FF49438C1CD044B00078404B /* JDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDLoginViewController.m; sourceTree = "<group>"; };
+		FF49438D1CD044B00078404B /* JDLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDLoginViewController.xib; sourceTree = "<group>"; };
 		FF61C3931CCC71EB00968857 /* HeaderPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderPch.pch; sourceTree = "<group>"; };
 		FF61C3941CCC764B00968857 /* UIBarButtonItem+JDBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+JDBarButtonItem.h"; path = "../../../UIBarButtonItem+JDBarButtonItem.h"; sourceTree = "<group>"; };
 		FF61C3951CCC764B00968857 /* UIBarButtonItem+JDBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+JDBarButtonItem.m"; path = "../../../UIBarButtonItem+JDBarButtonItem.m"; sourceTree = "<group>"; };
@@ -57,15 +71,29 @@
 		FF61C39B1CCC9C9000968857 /* UIView+JDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+JDExtension.m"; path = "../../../UIView+JDExtension.m"; sourceTree = "<group>"; };
 		FF61C3B21CCCA51900968857 /* JDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDNavigationController.h; path = ../../../JDNavigationController.h; sourceTree = "<group>"; };
 		FF61C3B31CCCA51900968857 /* JDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDNavigationController.m; path = ../../../JDNavigationController.m; sourceTree = "<group>"; };
-		FF8B67E31CCCB4570020A5F3 /* JDtestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDtestController.h; sourceTree = "<group>"; };
-		FF8B67E41CCCB4570020A5F3 /* JDtestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDtestController.m; sourceTree = "<group>"; };
-		FF8B67E61CCCB4A20020A5F3 /* JDView1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDView1Controller.h; sourceTree = "<group>"; };
-		FF8B67E71CCCB4A20020A5F3 /* JDView1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDView1Controller.m; sourceTree = "<group>"; };
+		FF84FC2F1CCF1808007D9ADA /* JDUserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDUserTableViewCell.h; sourceTree = "<group>"; };
+		FF84FC301CCF1808007D9ADA /* JDUserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDUserTableViewCell.m; sourceTree = "<group>"; };
+		FF84FC311CCF1808007D9ADA /* JDUserTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDUserTableViewCell.xib; sourceTree = "<group>"; };
+		FF84FC341CCF19FB007D9ADA /* JDUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDUserModel.h; sourceTree = "<group>"; };
+		FF84FC351CCF19FB007D9ADA /* JDUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDUserModel.m; sourceTree = "<group>"; };
+		FF84FC3A1CCF92DE007D9ADA /* JDSubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSubViewController.h; sourceTree = "<group>"; };
+		FF84FC3B1CCF92DE007D9ADA /* JDSubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSubViewController.m; sourceTree = "<group>"; };
+		FF84FC3C1CCF92DE007D9ADA /* JDSubViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDSubViewController.xib; sourceTree = "<group>"; };
+		FF84FC3F1CCF93E9007D9ADA /* JDSubTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSubTableViewCell.h; sourceTree = "<group>"; };
+		FF84FC401CCF93E9007D9ADA /* JDSubTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSubTableViewCell.m; sourceTree = "<group>"; };
+		FF84FC411CCF93E9007D9ADA /* JDSubTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDSubTableViewCell.xib; sourceTree = "<group>"; };
+		FF84FC441CCF940E007D9ADA /* JDSubModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSubModel.h; sourceTree = "<group>"; };
+		FF84FC451CCF940E007D9ADA /* JDSubModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSubModel.m; sourceTree = "<group>"; };
 		FF8B67E91CCCCE8A0020A5F3 /* JDfriendTrendsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDfriendTrendsController.xib; sourceTree = "<group>"; };
-		FFC4F9C91CCCF917000BE44A /* JDRecommeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDRecommeController.h; sourceTree = "<group>"; };
-		FFC4F9CA1CCCF917000BE44A /* JDRecommeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDRecommeController.m; sourceTree = "<group>"; };
-		FFC4F9CB1CCCF917000BE44A /* JDRecommeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDRecommeController.xib; sourceTree = "<group>"; };
+		FFC4F9C91CCCF917000BE44A /* JDRecommendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDRecommendController.h; sourceTree = "<group>"; };
+		FFC4F9CA1CCCF917000BE44A /* JDRecommendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDRecommendController.m; sourceTree = "<group>"; };
+		FFC4F9CB1CCCF917000BE44A /* JDRecommendController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDRecommendController.xib; sourceTree = "<group>"; };
 		FFC4F9CE1CCCFDB2000BE44A /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		FFC4F9D01CCE6EFD000BE44A /* JDTRecommendViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDTRecommendViewCell.h; sourceTree = "<group>"; };
+		FFC4F9D11CCE6EFD000BE44A /* JDTRecommendViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDTRecommendViewCell.m; sourceTree = "<group>"; };
+		FFC4F9D21CCE6EFD000BE44A /* JDTRecommendViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDTRecommendViewCell.xib; sourceTree = "<group>"; };
+		FFC4F9D51CCE7042000BE44A /* JDRecommendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDRecommendModel.h; sourceTree = "<group>"; };
+		FFC4F9D61CCE7042000BE44A /* JDRecommendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDRecommendModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,10 +193,9 @@
 			children = (
 				FF4007FF1CCBE4410084E810 /* JDEssenceController.h */,
 				FF4008001CCBE4410084E810 /* JDEssenceController.m */,
-				FF8B67E31CCCB4570020A5F3 /* JDtestController.h */,
-				FF8B67E41CCCB4570020A5F3 /* JDtestController.m */,
-				FF8B67E61CCCB4A20020A5F3 /* JDView1Controller.h */,
-				FF8B67E71CCCB4A20020A5F3 /* JDView1Controller.m */,
+				FF84FC3A1CCF92DE007D9ADA /* JDSubViewController.h */,
+				FF84FC3B1CCF92DE007D9ADA /* JDSubViewController.m */,
+				FF84FC3C1CCF92DE007D9ADA /* JDSubViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -176,6 +203,8 @@
 		FF61C3A41CCCA2DE00968857 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FF84FC441CCF940E007D9ADA /* JDSubModel.h */,
+				FF84FC451CCF940E007D9ADA /* JDSubModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -183,6 +212,9 @@
 		FF61C3A51CCCA2DE00968857 /* VIew */ = {
 			isa = PBXGroup;
 			children = (
+				FF84FC3F1CCF93E9007D9ADA /* JDSubTableViewCell.h */,
+				FF84FC401CCF93E9007D9ADA /* JDSubTableViewCell.m */,
+				FF84FC411CCF93E9007D9ADA /* JDSubTableViewCell.xib */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -203,9 +235,12 @@
 				FF4008021CCBE45F0084E810 /* JDfriendTrendsController.h */,
 				FF8B67E91CCCCE8A0020A5F3 /* JDfriendTrendsController.xib */,
 				FF4008031CCBE45F0084E810 /* JDfriendTrendsController.m */,
-				FFC4F9C91CCCF917000BE44A /* JDRecommeController.h */,
-				FFC4F9CA1CCCF917000BE44A /* JDRecommeController.m */,
-				FFC4F9CB1CCCF917000BE44A /* JDRecommeController.xib */,
+				FF49438B1CD044B00078404B /* JDLoginViewController.h */,
+				FF49438C1CD044B00078404B /* JDLoginViewController.m */,
+				FF49438D1CD044B00078404B /* JDLoginViewController.xib */,
+				FFC4F9C91CCCF917000BE44A /* JDRecommendController.h */,
+				FFC4F9CA1CCCF917000BE44A /* JDRecommendController.m */,
+				FFC4F9CB1CCCF917000BE44A /* JDRecommendController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -213,6 +248,10 @@
 		FF61C3A81CCCA2DE00968857 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FFC4F9D51CCE7042000BE44A /* JDRecommendModel.h */,
+				FFC4F9D61CCE7042000BE44A /* JDRecommendModel.m */,
+				FF84FC341CCF19FB007D9ADA /* JDUserModel.h */,
+				FF84FC351CCF19FB007D9ADA /* JDUserModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -220,6 +259,12 @@
 		FF61C3A91CCCA2DE00968857 /* VIew */ = {
 			isa = PBXGroup;
 			children = (
+				FFC4F9D01CCE6EFD000BE44A /* JDTRecommendViewCell.h */,
+				FFC4F9D11CCE6EFD000BE44A /* JDTRecommendViewCell.m */,
+				FFC4F9D21CCE6EFD000BE44A /* JDTRecommendViewCell.xib */,
+				FF84FC2F1CCF1808007D9ADA /* JDUserTableViewCell.h */,
+				FF84FC301CCF1808007D9ADA /* JDUserTableViewCell.m */,
+				FF84FC311CCF1808007D9ADA /* JDUserTableViewCell.xib */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -394,9 +439,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFC4F9CD1CCCF917000BE44A /* JDRecommeController.xib in Resources */,
+				FF49438F1CD044B00078404B /* JDLoginViewController.xib in Resources */,
+				FF84FC331CCF1808007D9ADA /* JDUserTableViewCell.xib in Resources */,
+				FFC4F9D41CCE6EFD000BE44A /* JDTRecommendViewCell.xib in Resources */,
+				FFC4F9CD1CCCF917000BE44A /* JDRecommendController.xib in Resources */,
+				FF84FC3E1CCF92DE007D9ADA /* JDSubViewController.xib in Resources */,
 				FF4007EF1CCBCB8B0084E810 /* Assets.xcassets in Resources */,
 				FF8B67EA1CCCCE8A0020A5F3 /* JDfriendTrendsController.xib in Resources */,
+				FF84FC431CCF93E9007D9ADA /* JDSubTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,20 +505,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF84FC461CCF940E007D9ADA /* JDSubModel.m in Sources */,
 				FF4008071CCBE48C0084E810 /* JDNewController.m in Sources */,
 				FF4007FB1CCBD28C0084E810 /* JDTabBarController.m in Sources */,
 				FF4007FE1CCBE4230084E810 /* JDMeController.m in Sources */,
-				FF8B67E51CCCB4570020A5F3 /* JDtestController.m in Sources */,
-				FF8B67E81CCCB4A20020A5F3 /* JDView1Controller.m in Sources */,
+				FF84FC3D1CCF92DE007D9ADA /* JDSubViewController.m in Sources */,
 				FF4008041CCBE45F0084E810 /* JDfriendTrendsController.m in Sources */,
+				FF84FC361CCF19FB007D9ADA /* JDUserModel.m in Sources */,
+				FF84FC321CCF1808007D9ADA /* JDUserTableViewCell.m in Sources */,
+				FF84FC421CCF93E9007D9ADA /* JDSubTableViewCell.m in Sources */,
+				FF49438E1CD044B00078404B /* JDLoginViewController.m in Sources */,
 				FF61C3B41CCCA51900968857 /* JDNavigationController.m in Sources */,
 				FF40080A1CCC5B840084E810 /* JDTabBar.m in Sources */,
+				FFC4F9D31CCE6EFD000BE44A /* JDTRecommendViewCell.m in Sources */,
 				FF4007E71CCBCB8B0084E810 /* AppDelegate.m in Sources */,
 				FF4008011CCBE4410084E810 /* JDEssenceController.m in Sources */,
-				FFC4F9CC1CCCF917000BE44A /* JDRecommeController.m in Sources */,
+				FFC4F9CC1CCCF917000BE44A /* JDRecommendController.m in Sources */,
 				FFC4F9CF1CCCFDB2000BE44A /* Foundation+Log.m in Sources */,
 				FF4007E41CCBCB8B0084E810 /* main.m in Sources */,
 				FF61C39C1CCC9C9000968857 /* UIView+JDExtension.m in Sources */,
+				FFC4F9D71CCE7042000BE44A /* JDRecommendModel.m in Sources */,
 				FF61C3961CCC764B00968857 /* UIBarButtonItem+JDBarButtonItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

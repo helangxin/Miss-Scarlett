@@ -1,5 +1,5 @@
 //
-//  JDView1Controller.h
+//  JDRecommeController.h
 //  百思不得姐
 //
 //  Created by helangxin on 16/4/24.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JDView1Controller : UIViewController
+@interface JDRecommendController : UIViewController
 
 @end
