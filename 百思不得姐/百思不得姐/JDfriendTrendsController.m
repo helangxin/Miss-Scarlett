@@ -21,7 +21,7 @@
     self.view.backgroundColor=JDGlobalColor;
     self.navigationItem.leftBarButtonItem=[UIBarButtonItem itemImage:@"friendsRecommentIcon" HighImage:@"friendsRecommentIcon-click" target:self action:@selector(pushRecommend)];
     
-    
+     
 }
 
 -(void)pushRecommend

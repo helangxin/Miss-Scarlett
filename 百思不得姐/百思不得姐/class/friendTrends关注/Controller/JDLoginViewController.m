@@ -10,6 +10,7 @@
 
 @interface JDLoginViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *bgView;
+//@property (weak, nonatomic) IBOutlet UIButton *loginBtn;
 
 @end
 
@@ -19,6 +20,8 @@
     [super viewDidLoad];
 
     [self.view insertSubview:self.bgView atIndex:0];
+//    self.loginBtn.layer.cornerRadius=10;
+//    self.loginBtn.layer.masksToBounds=YES;
     
 }
 
@@ -36,6 +39,10 @@
 -(UIStatusBarStyle)preferredStatusBarStyle
 {
     return    UIStatusBarStyleLightContent ;
+}
+- (IBAction)LogoutAction:(id)sender
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end
