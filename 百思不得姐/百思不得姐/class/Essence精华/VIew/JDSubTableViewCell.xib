@@ -22,12 +22,9 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlm-1x-1uk">
-                        <rect key="frame" x="70" y="13" width="42" height="21"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="42" id="IlG-1v-ogM"/>
-                        </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <rect key="frame" x="70" y="13" width="36" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="31e-4C-c69">
@@ -39,26 +36,26 @@
                         <state key="highlighted" backgroundImage="FollowBtnClickBg"/>
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kd9-Ff-Sa4">
-                        <rect key="frame" x="70" y="45" width="38" height="18"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <rect key="frame" x="70" y="46" width="36" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
                     <constraint firstItem="31e-4C-c69" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="99y-dn-EP3"/>
-                    <constraint firstItem="kd9-Ff-Sa4" firstAttribute="leading" secondItem="j1z-tc-078" secondAttribute="trailing" constant="10" id="AWE-H1-iPP"/>
                     <constraint firstAttribute="trailing" secondItem="31e-4C-c69" secondAttribute="trailing" constant="10" id="CZd-os-Si9"/>
                     <constraint firstItem="j1z-tc-078" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="CdW-Il-iHT"/>
-                    <constraint firstItem="nlm-1x-1uk" firstAttribute="top" secondItem="j1z-tc-078" secondAttribute="top" id="ExQ-yH-jBG"/>
-                    <constraint firstItem="nlm-1x-1uk" firstAttribute="leading" secondItem="j1z-tc-078" secondAttribute="trailing" constant="10" id="M0R-GQ-FYE"/>
+                    <constraint firstItem="nlm-1x-1uk" firstAttribute="leading" secondItem="j1z-tc-078" secondAttribute="trailing" constant="10" id="TTa-Pr-pZd"/>
                     <constraint firstItem="j1z-tc-078" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="TdQ-4a-I0A"/>
-                    <constraint firstItem="kd9-Ff-Sa4" firstAttribute="bottom" secondItem="j1z-tc-078" secondAttribute="bottom" id="X01-Js-ioh"/>
+                    <constraint firstItem="kd9-Ff-Sa4" firstAttribute="leading" secondItem="nlm-1x-1uk" secondAttribute="leading" id="UoQ-eE-b3a"/>
+                    <constraint firstItem="nlm-1x-1uk" firstAttribute="top" secondItem="j1z-tc-078" secondAttribute="top" id="ePF-Rd-3XT"/>
+                    <constraint firstItem="kd9-Ff-Sa4" firstAttribute="bottom" secondItem="j1z-tc-078" secondAttribute="bottom" id="n05-1j-jh7"/>
                     <constraint firstAttribute="bottom" secondItem="31e-4C-c69" secondAttribute="bottom" constant="20" id="nAt-u8-mBF"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
-                <outlet property="imageView" destination="j1z-tc-078" id="gzP-md-4jw"/>
+                <outlet property="iconView" destination="j1z-tc-078" id="5my-l7-pYz"/>
                 <outlet property="nameView" destination="nlm-1x-1uk" id="Unj-Eh-vw4"/>
                 <outlet property="recommendView" destination="31e-4C-c69" id="Hoq-JB-b4J"/>
                 <outlet property="subNumberView" destination="kd9-Ff-Sa4" id="rMG-8W-63n"/>

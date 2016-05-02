@@ -56,17 +56,11 @@
             </tableViewCellContentView>
             <connections>
                 <outlet property="fansCountView" destination="HIv-ME-SKV" id="jUd-uW-ddY"/>
-                <outlet property="imageView" destination="n3c-ms-3OZ" id="0se-td-ozR"/>
+                <outlet property="iconView" destination="n3c-ms-3OZ" id="0XC-uh-fMn"/>
                 <outlet property="nameView" destination="xOs-lj-iug" id="a6j-5E-9dz"/>
             </connections>
             <point key="canvasLocation" x="316" y="373.5"/>
         </tableViewCell>
-        <view contentMode="scaleToFill" id="Oap-13-UBn">
-            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-            <point key="canvasLocation" x="469" y="357"/>
-        </view>
     </objects>
     <resources>
         <image name="FollowBtnBg" width="51" height="25"/>

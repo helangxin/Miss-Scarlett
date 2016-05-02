@@ -11,7 +11,7 @@
 #import <UIImageView+WebCache.h>
 
 @interface JDUserTableViewCell ()
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UIImageView *iconView;
 @property (weak, nonatomic) IBOutlet UILabel *nameView;
 @property (weak, nonatomic) IBOutlet UILabel *fansCountView;
 
@@ -26,8 +26,9 @@
 -(void)setUserModel:(JDUserModel *)userModel
 {
     _userModel=userModel;
-    [self.imageView sd_setImageWithURL:[NSURL URLWithString:userModel.header]placeholderImage:[UIImage imageNamed:@"defaultUserIcon"]];
+    [self.iconView sd_setImageWithURL:[NSURL URLWithString:userModel.header]placeholderImage:[UIImage imageNamed:@"defaultUserIcon"]];
     self.nameView.text=userModel.name;
-    self.fansCountView.text=[NSString stringWithFormat:@"%zd万人关注",(int)(userModel.fans_count)/10000];
+//    NSString *str =[NSString stringWithFormat:@"%d",userModel.fans_count/10000];
+    self.fansCountView.text=[NSString stringWithFormat:@"%@万人关注",(userModel.fans_count)];
 }
 @end

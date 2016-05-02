@@ -67,6 +67,7 @@
     //包装自定义的导航控制器
    JDNavigationController *navc=[[JDNavigationController alloc]initWithRootViewController:vc];
     [self addChildViewController:navc];
+   // NSLog(@"self.childViewControllers.count===%lu",(unsigned long)self.childViewControllers.count);
 }
 
 

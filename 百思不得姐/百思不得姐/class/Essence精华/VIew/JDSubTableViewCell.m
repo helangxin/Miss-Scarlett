@@ -10,7 +10,7 @@
 #import <UIImageView+WebCache.h>
 
 @interface JDSubTableViewCell ()
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UIImageView *iconView;
 //@property (weak, nonatomic) IBOutlet NSLayoutConstraint *recommendView;
 @property (weak, nonatomic) IBOutlet UILabel *nameView;
 @property (weak, nonatomic) IBOutlet UILabel *subNumberView;
@@ -27,7 +27,7 @@
 -(void)setSubModel:(JDSubModel *)subModel
 {
     _subModel=subModel;
-    [self.imageView sd_setImageWithURL:[NSURL URLWithString:subModel.image_list]placeholderImage:[UIImage imageNamed:@"defaultUserIcon"]];
+    [self.iconView sd_setImageWithURL:[NSURL URLWithString:subModel.image_list]placeholderImage:[UIImage imageNamed:@"defaultUserIcon"]];
     self.nameView.text=subModel.theme_name;
     self.subNumberView.text=[NSString stringWithFormat:@"%ld万人订阅",(long)subModel.sub_number/10000];
     

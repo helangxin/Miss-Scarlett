@@ -65,7 +65,7 @@
          //刷新数据
          [self.subTableView reloadData];
          [SVProgressHUD dismiss];
-         NSLog(@"%@",responseObject);
+         //NSLog(@"%@",responseObject);
      } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
          [SVProgressHUD showErrorWithStatus:@"加载失败"];
      }];
@@ -79,7 +79,6 @@
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     JDSubTableViewCell*cell=[tableView dequeueReusableCellWithIdentifier:subIdentifier];
-    
     //赋值
     cell.subModel=self.subArr[indexPath.row];
     

@@ -48,7 +48,7 @@
     /**
      *  注册cell
      */
-    [self.recommendTableView registerNib:[UINib nibWithNibName:NSStringFromClass([JDTRecommendViewCell class]) bundle:nil] forCellReuseIdentifier:@"hehe"];
+    [self.recommendTableView registerNib:[UINib nibWithNibName:NSStringFromClass([JDTRecommendViewCell class]) bundle:nil] forCellReuseIdentifier:identifierKey];
     
     [self.userTableView registerNib:[UINib nibWithNibName:NSStringFromClass([JDUserTableViewCell class]) bundle:nil] forCellReuseIdentifier:identifierUser];
     
@@ -118,7 +118,7 @@
 {
     if (tableView==self.recommendTableView)
     {
-        JDTRecommendViewCell*cell=[tableView dequeueReusableCellWithIdentifier:@"hehe"];
+        JDTRecommendViewCell*cell=[tableView dequeueReusableCellWithIdentifier:identifierKey];
         
         //赋值
         cell.category=self.recommendArr[indexPath.row];
