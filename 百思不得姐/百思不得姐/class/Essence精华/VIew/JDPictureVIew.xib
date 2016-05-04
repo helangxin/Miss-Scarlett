@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="7Ju-kM-Rq8" customClass="JDPictureVIew">
+            <rect key="frame" x="0.0" y="0.0" width="334" height="334"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="post_placeholderImage" translatesAutoresizingMaskIntoConstraints="NO" id="HhS-LM-nmk" userLabel="占位图">
+                    <rect key="frame" x="0.0" y="51" width="334" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="JFH-3i-40C"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9xO-nl-rkN">
+                    <rect key="frame" x="0.0" y="0.0" width="334" height="334"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="common-gif" translatesAutoresizingMaskIntoConstraints="NO" id="4Bq-Za-R34" userLabel="gif图">
+                    <rect key="frame" x="0.0" y="0.0" width="31" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="31" id="EQX-08-R50"/>
+                        <constraint firstAttribute="width" constant="31" id="TLQ-4Y-Mdj"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1xZ-gA-Opl" userLabel="背景">
+                    <rect key="frame" x="0.0" y="294" width="334" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="mLM-fN-5AP"/>
+                    </constraints>
+                    <state key="normal" title="点击查看全图" image="see-big-picture" backgroundImage="see-big-picture-background"/>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5ZM-oj-dOx" userLabel="进度条">
+                    <rect key="frame" x="117" y="117" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="2NU-xF-4ci"/>
+                        <constraint firstAttribute="height" constant="100" id="u1m-Bi-t9k"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="5ZM-oj-dOx" firstAttribute="centerY" secondItem="7Ju-kM-Rq8" secondAttribute="centerY" id="44d-Vv-B93"/>
+                <constraint firstItem="HhS-LM-nmk" firstAttribute="leading" secondItem="7Ju-kM-Rq8" secondAttribute="leading" id="4u6-iO-AW8"/>
+                <constraint firstItem="9xO-nl-rkN" firstAttribute="leading" secondItem="7Ju-kM-Rq8" secondAttribute="leading" id="9Nz-zI-AOa"/>
+                <constraint firstAttribute="bottom" secondItem="1xZ-gA-Opl" secondAttribute="bottom" id="R9C-FC-Wql"/>
+                <constraint firstItem="1xZ-gA-Opl" firstAttribute="leading" secondItem="7Ju-kM-Rq8" secondAttribute="leading" id="VKC-In-Osn"/>
+                <constraint firstAttribute="trailing" secondItem="HhS-LM-nmk" secondAttribute="trailing" id="dUJ-yi-PUx"/>
+                <constraint firstAttribute="trailing" secondItem="9xO-nl-rkN" secondAttribute="trailing" id="diC-Nb-4Br"/>
+                <constraint firstItem="5ZM-oj-dOx" firstAttribute="centerX" secondItem="7Ju-kM-Rq8" secondAttribute="centerX" id="eDb-rG-IGs"/>
+                <constraint firstAttribute="trailing" secondItem="1xZ-gA-Opl" secondAttribute="trailing" id="g9a-fG-gyE"/>
+                <constraint firstItem="9xO-nl-rkN" firstAttribute="top" secondItem="7Ju-kM-Rq8" secondAttribute="top" id="hFn-M9-ijO"/>
+                <constraint firstItem="HhS-LM-nmk" firstAttribute="top" secondItem="4Bq-Za-R34" secondAttribute="bottom" constant="20" id="jDw-LK-Xna"/>
+                <constraint firstItem="4Bq-Za-R34" firstAttribute="leading" secondItem="7Ju-kM-Rq8" secondAttribute="leading" id="jJM-sW-OMS"/>
+                <constraint firstItem="4Bq-Za-R34" firstAttribute="top" secondItem="7Ju-kM-Rq8" secondAttribute="top" id="mzm-TS-fdK"/>
+                <constraint firstAttribute="bottom" secondItem="9xO-nl-rkN" secondAttribute="bottom" id="okg-u1-j2p"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="OnClickView" destination="1xZ-gA-Opl" id="bLu-A5-zGR"/>
+                <outlet property="gifPictureView" destination="4Bq-Za-R34" id="XeC-Yo-OBX"/>
+                <outlet property="pictureView" destination="9xO-nl-rkN" id="yTa-U2-BeR"/>
+                <outlet property="progressView" destination="5ZM-oj-dOx" id="jar-xk-1eI"/>
+            </connections>
+            <point key="canvasLocation" x="391" y="329"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="common-gif" width="31" height="31"/>
+        <image name="post_placeholderImage" width="145" height="30"/>
+        <image name="see-big-picture" width="19" height="19"/>
+        <image name="see-big-picture-background" width="285" height="43"/>
+    </resources>
+</document>

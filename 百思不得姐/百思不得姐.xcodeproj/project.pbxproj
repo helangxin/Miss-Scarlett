@@ -21,6 +21,8 @@
 		FF49438F1CD044B00078404B /* JDLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF49438D1CD044B00078404B /* JDLoginViewController.xib */; };
 		FF4943921CD05D470078404B /* JDLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4943911CD05D470078404B /* JDLoginButton.m */; };
 		FF4943951CD09D1A0078404B /* JDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4943941CD09D1A0078404B /* JDTextField.m */; };
+		FF53510C1CD9882A0008DBD1 /* JDShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53510A1CD9882A0008DBD1 /* JDShowViewController.m */; };
+		FF53510D1CD9882A0008DBD1 /* JDShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF53510B1CD9882A0008DBD1 /* JDShowViewController.xib */; };
 		FF61C3961CCC764B00968857 /* UIBarButtonItem+JDBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61C3951CCC764B00968857 /* UIBarButtonItem+JDBarButtonItem.m */; };
 		FF61C39C1CCC9C9000968857 /* UIView+JDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61C39B1CCC9C9000968857 /* UIView+JDExtension.m */; };
 		FF61C3B41CCCA51900968857 /* JDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61C3B31CCCA51900968857 /* JDNavigationController.m */; };
@@ -45,6 +47,8 @@
 		FFC74E081CD0DCC4000A587E /* JDNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC74E071CD0DCC4000A587E /* JDNavigationView.m */; };
 		FFED937B1CD71AC200AFFE46 /* JDBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFED937A1CD71AC200AFFE46 /* JDBaseTableViewController.m */; };
 		FFED937E1CD7233700AFFE46 /* JDConstValue.m in Sources */ = {isa = PBXBuildFile; fileRef = FFED937D1CD7233700AFFE46 /* JDConstValue.m */; };
+		FFED93811CD8CB4900AFFE46 /* JDPictureVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = FFED93801CD8CB4900AFFE46 /* JDPictureVIew.m */; };
+		FFED93831CD8CD9700AFFE46 /* JDPictureVIew.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFED93821CD8CD9700AFFE46 /* JDPictureVIew.xib */; };
 		FFF590461CD6317200C6BF17 /* NSDate+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF590451CD6317200C6BF17 /* NSDate+XMGExtension.m */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +81,9 @@
 		FF4943911CD05D470078404B /* JDLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDLoginButton.m; sourceTree = "<group>"; };
 		FF4943931CD09D1A0078404B /* JDTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDTextField.h; sourceTree = "<group>"; };
 		FF4943941CD09D1A0078404B /* JDTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDTextField.m; sourceTree = "<group>"; };
+		FF5351091CD9882A0008DBD1 /* JDShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDShowViewController.h; sourceTree = "<group>"; };
+		FF53510A1CD9882A0008DBD1 /* JDShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDShowViewController.m; sourceTree = "<group>"; };
+		FF53510B1CD9882A0008DBD1 /* JDShowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDShowViewController.xib; sourceTree = "<group>"; };
 		FF61C3931CCC71EB00968857 /* HeaderPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderPch.pch; sourceTree = "<group>"; };
 		FF61C3941CCC764B00968857 /* UIBarButtonItem+JDBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+JDBarButtonItem.h"; path = "../../../UIBarButtonItem+JDBarButtonItem.h"; sourceTree = "<group>"; };
 		FF61C3951CCC764B00968857 /* UIBarButtonItem+JDBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+JDBarButtonItem.m"; path = "../../../UIBarButtonItem+JDBarButtonItem.m"; sourceTree = "<group>"; };
@@ -118,6 +125,9 @@
 		FFED937A1CD71AC200AFFE46 /* JDBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBaseTableViewController.m; sourceTree = "<group>"; };
 		FFED937C1CD7233700AFFE46 /* JDConstValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDConstValue.h; sourceTree = "<group>"; };
 		FFED937D1CD7233700AFFE46 /* JDConstValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDConstValue.m; sourceTree = "<group>"; };
+		FFED937F1CD8CB4900AFFE46 /* JDPictureVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDPictureVIew.h; sourceTree = "<group>"; };
+		FFED93801CD8CB4900AFFE46 /* JDPictureVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDPictureVIew.m; sourceTree = "<group>"; };
+		FFED93821CD8CD9700AFFE46 /* JDPictureVIew.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDPictureVIew.xib; sourceTree = "<group>"; };
 		FFF590441CD6317200C6BF17 /* NSDate+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XMGExtension.h"; sourceTree = "<group>"; };
 		FFF590451CD6317200C6BF17 /* NSDate+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XMGExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -224,6 +234,9 @@
 				FF84FC3A1CCF92DE007D9ADA /* JDSubViewController.h */,
 				FF84FC3B1CCF92DE007D9ADA /* JDSubViewController.m */,
 				FF84FC3C1CCF92DE007D9ADA /* JDSubViewController.xib */,
+				FF5351091CD9882A0008DBD1 /* JDShowViewController.h */,
+				FF53510A1CD9882A0008DBD1 /* JDShowViewController.m */,
+				FF53510B1CD9882A0008DBD1 /* JDShowViewController.xib */,
 				FFC74E061CD0DCC4000A587E /* JDNavigationView.h */,
 				FFC74E071CD0DCC4000A587E /* JDNavigationView.m */,
 			);
@@ -250,6 +263,9 @@
 				FFA9FA341CD3475000046AC3 /* JDAmuseViewCell.h */,
 				FFA9FA351CD3475000046AC3 /* JDAmuseViewCell.m */,
 				FFA9FA361CD3475000046AC3 /* JDAmuseViewCell.xib */,
+				FFED937F1CD8CB4900AFFE46 /* JDPictureVIew.h */,
+				FFED93801CD8CB4900AFFE46 /* JDPictureVIew.m */,
+				FFED93821CD8CD9700AFFE46 /* JDPictureVIew.xib */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -484,6 +500,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFA9FA381CD3475000046AC3 /* JDAmuseViewCell.xib in Resources */,
+				FFED93831CD8CD9700AFFE46 /* JDPictureVIew.xib in Resources */,
 				FF49438F1CD044B00078404B /* JDLoginViewController.xib in Resources */,
 				FF84FC331CCF1808007D9ADA /* JDUserTableViewCell.xib in Resources */,
 				FFC4F9D41CCE6EFD000BE44A /* JDTRecommendViewCell.xib in Resources */,
@@ -492,6 +509,7 @@
 				FF4007EF1CCBCB8B0084E810 /* Assets.xcassets in Resources */,
 				FF8B67EA1CCCCE8A0020A5F3 /* JDfriendTrendsController.xib in Resources */,
 				FF84FC431CCF93E9007D9ADA /* JDSubTableViewCell.xib in Resources */,
+				FF53510D1CD9882A0008DBD1 /* JDShowViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,11 +578,13 @@
 				FFED937E1CD7233700AFFE46 /* JDConstValue.m in Sources */,
 				FF84FC3D1CCF92DE007D9ADA /* JDSubViewController.m in Sources */,
 				FF4008041CCBE45F0084E810 /* JDfriendTrendsController.m in Sources */,
+				FF53510C1CD9882A0008DBD1 /* JDShowViewController.m in Sources */,
 				FF84FC361CCF19FB007D9ADA /* JDUserModel.m in Sources */,
 				FF84FC321CCF1808007D9ADA /* JDUserTableViewCell.m in Sources */,
 				FF4943951CD09D1A0078404B /* JDTextField.m in Sources */,
 				FF84FC421CCF93E9007D9ADA /* JDSubTableViewCell.m in Sources */,
 				FF4943921CD05D470078404B /* JDLoginButton.m in Sources */,
+				FFED93811CD8CB4900AFFE46 /* JDPictureVIew.m in Sources */,
 				FF49438E1CD044B00078404B /* JDLoginViewController.m in Sources */,
 				FF61C3B41CCCA51900968857 /* JDNavigationController.m in Sources */,
 				FF40080A1CCC5B840084E810 /* JDTabBar.m in Sources */,

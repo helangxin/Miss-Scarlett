@@ -8,13 +8,24 @@
 
 #import "JDAmuseModel.h"
 #import "NSDate+XMGExtension.h"
+#import <MJExtension.h>
 
 @implementation JDAmuseModel
 
 {
     CGFloat _cellHight;
+    CGRect  _pictureF;
 }
-
+/** mj的方法交换把本类的属性进行替换 */
++(NSDictionary *)mj_replacedKeyFromPropertyName
+{
+    return @{
+             @"small_iamge":@"image0",
+               @"larger_iamge":@"image1",
+               @"middle_iamge":@"image2",
+             
+             };
+}
 
 
 - (NSString *)create_time
@@ -62,6 +73,26 @@
         
         // cell的高度
        _cellHight = JDTopicTextY + textH + JDTopicTarBarBottomH + 2 * JDTopicCellMargin;
+        /** cell的高度=文本内容的高度+文字内容的高度+tarbar底部的高度+2倍的间距 */
+        
+        //计算picture的frame
+        if (self.type==JDTopicTypePicture)
+        {
+            CGFloat pictureW=maxSize.width;
+            CGFloat pictureH=pictureW*self.height/self.width;
+            if (pictureH>=JDTopicPictureMaxH)
+            {
+                /** 如果超出最大的size则用大图 */
+                pictureH=JDTopicPictureBreakH;
+                self.bigPicture=YES;
+            }
+            
+            CGFloat pictureX=JDTopicCellMargin;
+            CGFloat pictureY=JDTopicTextY+JDTopicCellMargin;
+            _pictureF=CGRectMake(pictureX, pictureY, pictureW, pictureH);
+            _cellHight=_cellHight+ pictureH;
+        }
+        
     }
     return _cellHight;
 }

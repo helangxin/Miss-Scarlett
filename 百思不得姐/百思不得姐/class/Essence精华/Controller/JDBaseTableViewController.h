@@ -8,13 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef enum {
-    JDTopicTypeAll = 1,
-    JDTopicTypePicture = 10,
-    JDTopicTypeWord = 29,
-    JDGTopicTypeVoice = 31,
-    JDTopicTypeVideo = 41
-} JDTopicType;
+
 
 @interface JDBaseTableViewController : UITableViewController
 /** 下一页参数 */

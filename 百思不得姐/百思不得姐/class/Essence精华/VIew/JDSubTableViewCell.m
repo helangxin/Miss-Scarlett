@@ -30,7 +30,6 @@
     [self.iconView sd_setImageWithURL:[NSURL URLWithString:subModel.image_list]placeholderImage:[UIImage imageNamed:@"defaultUserIcon"]];
     self.nameView.text=subModel.theme_name;
     self.subNumberView.text=[NSString stringWithFormat:@"%ld万人订阅",(long)subModel.sub_number/10000];
-    
 }
 
 /**

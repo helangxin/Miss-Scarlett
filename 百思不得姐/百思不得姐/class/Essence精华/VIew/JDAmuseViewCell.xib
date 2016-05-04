@@ -37,17 +37,12 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Rg-HK-VJJ" userLabel="工具条">
                         <rect key="frame" x="0.0" y="212" width="320" height="44"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUy-k2-wL4">
-                                <rect key="frame" x="240" y="0.0" width="80" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4n-6l-aOK" userLabel="踩">
+                                <rect key="frame" x="163" y="0.0" width="80" height="44"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="4BZ-q4-oiB"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="SZZ-AH-bUf"/>
+                                    <constraint firstAttribute="height" constant="44" id="dg3-cJ-fAY"/>
                                 </constraints>
-                                <state key="normal" title="121" image="mainCellComment">
-                                    <color key="titleColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
+                                <state key="normal" title="223" image="mainCellShare">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
@@ -70,12 +65,16 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4n-6l-aOK" userLabel="踩">
-                                <rect key="frame" x="163" y="0.0" width="80" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUy-k2-wL4">
+                                <rect key="frame" x="240" y="0.0" width="80" height="44"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="dg3-cJ-fAY"/>
+                                    <constraint firstAttribute="height" constant="44" id="4BZ-q4-oiB"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="SZZ-AH-bUf"/>
                                 </constraints>
-                                <state key="normal" title="223" image="mainCellShare">
+                                <state key="normal" title="121" image="mainCellComment">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
@@ -112,10 +111,13 @@
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EaJ-Wz-W7V">
                         <rect key="frame" x="8" y="66" width="304" height="0.0"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="53T-rK-ya0">
+                        <rect key="frame" x="86" y="52" width="161" height="91"/>
+                    </imageView>
                 </subviews>
                 <constraints>
                     <constraint firstItem="GOl-ld-H9U" firstAttribute="bottom" secondItem="D8q-QL-UB9" secondAttribute="bottom" id="0bL-Vn-o7r"/>
