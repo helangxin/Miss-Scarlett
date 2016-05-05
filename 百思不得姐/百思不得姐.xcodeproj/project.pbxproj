@@ -46,6 +46,8 @@
 		FFC4F9D41CCE6EFD000BE44A /* JDTRecommendViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFC4F9D21CCE6EFD000BE44A /* JDTRecommendViewCell.xib */; };
 		FFC4F9D71CCE7042000BE44A /* JDRecommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC4F9D61CCE7042000BE44A /* JDRecommendModel.m */; };
 		FFC74E081CD0DCC4000A587E /* JDNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC74E071CD0DCC4000A587E /* JDNavigationView.m */; };
+		FFDD6BA91CDB1F2B003BBBB7 /* JDPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD6BA71CDB1F2B003BBBB7 /* JDPublishViewController.m */; };
+		FFDD6BAA1CDB1F2B003BBBB7 /* JDPublishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFDD6BA81CDB1F2B003BBBB7 /* JDPublishViewController.xib */; };
 		FFED937B1CD71AC200AFFE46 /* JDBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFED937A1CD71AC200AFFE46 /* JDBaseTableViewController.m */; };
 		FFED937E1CD7233700AFFE46 /* JDConstValue.m in Sources */ = {isa = PBXBuildFile; fileRef = FFED937D1CD7233700AFFE46 /* JDConstValue.m */; };
 		FFED93811CD8CB4900AFFE46 /* JDPictureVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = FFED93801CD8CB4900AFFE46 /* JDPictureVIew.m */; };
@@ -124,6 +126,9 @@
 		FFC4F9D61CCE7042000BE44A /* JDRecommendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDRecommendModel.m; sourceTree = "<group>"; };
 		FFC74E061CD0DCC4000A587E /* JDNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDNavigationView.h; sourceTree = "<group>"; };
 		FFC74E071CD0DCC4000A587E /* JDNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDNavigationView.m; sourceTree = "<group>"; };
+		FFDD6BA61CDB1F2B003BBBB7 /* JDPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDPublishViewController.h; sourceTree = "<group>"; };
+		FFDD6BA71CDB1F2B003BBBB7 /* JDPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDPublishViewController.m; sourceTree = "<group>"; };
+		FFDD6BA81CDB1F2B003BBBB7 /* JDPublishViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDPublishViewController.xib; sourceTree = "<group>"; };
 		FFED93791CD71AC200AFFE46 /* JDBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBaseTableViewController.h; sourceTree = "<group>"; };
 		FFED937A1CD71AC200AFFE46 /* JDBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBaseTableViewController.m; sourceTree = "<group>"; };
 		FFED937C1CD7233700AFFE46 /* JDConstValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDConstValue.h; sourceTree = "<group>"; };
@@ -413,6 +418,9 @@
 				FF61C3B31CCCA51900968857 /* JDNavigationController.m */,
 				FF4007F91CCBD28C0084E810 /* JDTabBarController.h */,
 				FF4007FA1CCBD28C0084E810 /* JDTabBarController.m */,
+				FFDD6BA61CDB1F2B003BBBB7 /* JDPublishViewController.h */,
+				FFDD6BA71CDB1F2B003BBBB7 /* JDPublishViewController.m */,
+				FFDD6BA81CDB1F2B003BBBB7 /* JDPublishViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -504,6 +512,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFDD6BAA1CDB1F2B003BBBB7 /* JDPublishViewController.xib in Resources */,
 				FFA9FA381CD3475000046AC3 /* JDAmuseViewCell.xib in Resources */,
 				FFED93831CD8CD9700AFFE46 /* JDPictureVIew.xib in Resources */,
 				FF49438F1CD044B00078404B /* JDLoginViewController.xib in Resources */,
@@ -587,6 +596,7 @@
 				FF53510C1CD9882A0008DBD1 /* JDShowViewController.m in Sources */,
 				FF84FC361CCF19FB007D9ADA /* JDUserModel.m in Sources */,
 				FF84FC321CCF1808007D9ADA /* JDUserTableViewCell.m in Sources */,
+				FFDD6BA91CDB1F2B003BBBB7 /* JDPublishViewController.m in Sources */,
 				FF4943951CD09D1A0078404B /* JDTextField.m in Sources */,
 				FF84FC421CCF93E9007D9ADA /* JDSubTableViewCell.m in Sources */,
 				FF4943921CD05D470078404B /* JDLoginButton.m in Sources */,

@@ -64,13 +64,7 @@
          
          //关闭上下文
          UIGraphicsEndImageContext();
-         
-         
-         
     }];
-    
-    
-    
     
     /** 取得大图的扩展名 */
     NSString*extension=model.larger_iamge.pathExtension;

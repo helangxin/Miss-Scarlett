@@ -18,4 +18,7 @@
 #define JDGlobalColor JDColor(233,233,233)
 
 
+#define JDScreenH [UIScreen mainScreen].bounds.size.height
+#define JDScreenW [UIScreen mainScreen].bounds.size.width
+
 #endif /* HeaderPch_pch */
