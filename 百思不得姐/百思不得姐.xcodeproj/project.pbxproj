@@ -23,6 +23,7 @@
 		FF4943951CD09D1A0078404B /* JDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4943941CD09D1A0078404B /* JDTextField.m */; };
 		FF53510C1CD9882A0008DBD1 /* JDShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53510A1CD9882A0008DBD1 /* JDShowViewController.m */; };
 		FF53510D1CD9882A0008DBD1 /* JDShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF53510B1CD9882A0008DBD1 /* JDShowViewController.xib */; };
+		FF5351101CD9ADA30008DBD1 /* JDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF53510F1CD9ADA30008DBD1 /* JDProgressView.m */; };
 		FF61C3961CCC764B00968857 /* UIBarButtonItem+JDBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61C3951CCC764B00968857 /* UIBarButtonItem+JDBarButtonItem.m */; };
 		FF61C39C1CCC9C9000968857 /* UIView+JDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61C39B1CCC9C9000968857 /* UIView+JDExtension.m */; };
 		FF61C3B41CCCA51900968857 /* JDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61C3B31CCCA51900968857 /* JDNavigationController.m */; };
@@ -84,6 +85,8 @@
 		FF5351091CD9882A0008DBD1 /* JDShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDShowViewController.h; sourceTree = "<group>"; };
 		FF53510A1CD9882A0008DBD1 /* JDShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDShowViewController.m; sourceTree = "<group>"; };
 		FF53510B1CD9882A0008DBD1 /* JDShowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDShowViewController.xib; sourceTree = "<group>"; };
+		FF53510E1CD9ADA30008DBD1 /* JDProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDProgressView.h; sourceTree = "<group>"; };
+		FF53510F1CD9ADA30008DBD1 /* JDProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDProgressView.m; sourceTree = "<group>"; };
 		FF61C3931CCC71EB00968857 /* HeaderPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderPch.pch; sourceTree = "<group>"; };
 		FF61C3941CCC764B00968857 /* UIBarButtonItem+JDBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+JDBarButtonItem.h"; path = "../../../UIBarButtonItem+JDBarButtonItem.h"; sourceTree = "<group>"; };
 		FF61C3951CCC764B00968857 /* UIBarButtonItem+JDBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+JDBarButtonItem.m"; path = "../../../UIBarButtonItem+JDBarButtonItem.m"; sourceTree = "<group>"; };
@@ -266,6 +269,8 @@
 				FFED937F1CD8CB4900AFFE46 /* JDPictureVIew.h */,
 				FFED93801CD8CB4900AFFE46 /* JDPictureVIew.m */,
 				FFED93821CD8CD9700AFFE46 /* JDPictureVIew.xib */,
+				FF53510E1CD9ADA30008DBD1 /* JDProgressView.h */,
+				FF53510F1CD9ADA30008DBD1 /* JDProgressView.m */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -577,6 +582,7 @@
 				FF4007FE1CCBE4230084E810 /* JDMeController.m in Sources */,
 				FFED937E1CD7233700AFFE46 /* JDConstValue.m in Sources */,
 				FF84FC3D1CCF92DE007D9ADA /* JDSubViewController.m in Sources */,
+				FF5351101CD9ADA30008DBD1 /* JDProgressView.m in Sources */,
 				FF4008041CCBE45F0084E810 /* JDfriendTrendsController.m in Sources */,
 				FF53510C1CD9882A0008DBD1 /* JDShowViewController.m in Sources */,
 				FF84FC361CCF19FB007D9ADA /* JDUserModel.m in Sources */,

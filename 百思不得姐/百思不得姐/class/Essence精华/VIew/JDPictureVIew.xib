@@ -17,7 +17,7 @@
                         <constraint firstAttribute="height" constant="20" id="JFH-3i-40C"/>
                     </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9xO-nl-rkN">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9xO-nl-rkN" userLabel="图片">
                     <rect key="frame" x="0.0" y="0.0" width="334" height="334"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="common-gif" translatesAutoresizingMaskIntoConstraints="NO" id="4Bq-Za-R34" userLabel="gif图">
@@ -64,7 +64,7 @@
                 <outlet property="OnClickView" destination="1xZ-gA-Opl" id="bLu-A5-zGR"/>
                 <outlet property="gifPictureView" destination="4Bq-Za-R34" id="XeC-Yo-OBX"/>
                 <outlet property="pictureView" destination="9xO-nl-rkN" id="yTa-U2-BeR"/>
-                <outlet property="progressView" destination="5ZM-oj-dOx" id="jar-xk-1eI"/>
+                <outlet property="progressView" destination="5ZM-oj-dOx" id="v8d-RJ-Xcm"/>
             </connections>
             <point key="canvasLocation" x="391" y="329"/>
         </view>
